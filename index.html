@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Compactador de Texto Premium</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>Compactador de Texto Premium</h1>
+  </header>
+  <main>
+    <section class="input-section">
+      <h2>Ingresa tu texto:</h2>
+      <textarea id="texto-entrada" placeholder="Escribe aquí tu texto..."></textarea>
+    </section>
+    <section class="output-section">
+      <h2>Texto Compactado:</h2>
+      <div class="output-container">
+        <textarea id="texto-salida" readonly></textarea>
+        <button id="copiar-texto" disabled>Copiar Texto</button>
+      </div>
+    </section>
+    <section class="donate-section">
+      <h2>Apoya este proyecto con una donación:</h2>
+      <form action="https://paypal.me/Estebanfederico " method="post" target="_top">
+        <input type="hidden" name="hosted_button_id" value="YOUR_PAYPAL_BUTTON_ID">
+        <input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online.">
+        <img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
+      </form>
+    </section>
+  </main>
+  <footer>
+    <p>&copy; 2023 Compactador de Texto Premium</p>
+  </footer>
+  <script src="script.js"></script>
+</body>
+</html>
